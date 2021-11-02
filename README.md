@@ -1,6 +1,6 @@
 # XPM Viewer
 
-A Windows XPM2 and XPM3 image viewer written in C++ using WinAPI and GDI with the ability to export between both formats. The viewer is designed to be used with icon pixmaps but can be used with regular images. The parser also supports the [X11 colour names](https://en.wikipedia.org/wiki/X11_color_names) where 'None' yields transparency. Currently, the colour types other than `c` are unspported as well as the `<Optional Extensions>` section.
+A Windows XPM2 and XPM3 image viewer written in C++ using WinAPI and GDI with the ability to export between both formats. The viewer is designed to be used with icon pixmaps but can be used with regular images. The parser also supports the [X11 colour names](https://en.wikipedia.org/wiki/X11_color_names) where "None" yields transparency. Currently, the colour types other than `c` are unspported as well as the `<Optional Extensions>` section.
 
 The parser is decoupled from the Windows application and does not include any platform-specific API code so it may be used for other projects.
 
